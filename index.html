@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css'>
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <script src='assets/js/script.js' defer></script>
+    <title>Platastic</title>
+</head>
+
+<body>
+    <!-- Navigation Section -->
+    <nav>
+        <div class="container">
+            <h1><img src="assets/img/logo.png" alt=""></h1>
+            <div class="toggle-button" onclick="hamburgerToggle();">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">Over Ons</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#FAQ" class="fullscreen-faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home">
+        <video src="https://julianvh.nl/portfolio-items/platastic/assets/video/crossoverchallenge.mp4" class="autoplay-hero-video" muted autoplay loop></video>
+
+        <div class="hero-banner">
+            <h2>Platastic</h2>
+            <button class="fullscreen-video"><i class="fa-solid fa-video"></i> Bekijk de video!</button>
+        </div>
+
+        <section class="video-modal" style="display: none;">
+            <div class="modal">
+                <div class="overlay"></div>
+                <video src="https://julianvh.nl/portfolio-items/platastic/assets/video/crossoverchallenge.mp4" class="hero-video" controls></video>
+                <div class="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </section>
+
+
+    </header>
+
+    <!-- About US -->
+    <div class="about-us__text" id="about-us">
+        <div class="container">
+            <div class="about-us__paragraph">
+                <h2>Laten we het samen doen.</h2>
+                <p>
+                    Platastic wij zijn een studio ingehuurd door Little Green Bag om een campagne te maken voor Loofy's
+                    wij willen anderen inspireren om bewust om te gaan met de natuur.
+                    <br><br>
+                    Laten we er samen voor zorgen dat we de aarde goed achterlaten en schoon aan onze kinderen kunnen
+                    doorgeven. Loofy's verkoopt haar producten met geheel plasticvrije verpakkingen. Alle producten zijn
+                    volledig op te nemen in de biologische kringloop. hierdoor blijven er geen afvalstoffen achter in de
+                    natuur.
+                </p>
+            </div>
+            <img class="about-us__img" src="assets/img/1.jpg" alt="">
+        </div>
+    </div>
+
+
+    <section class="cards">
+        <h2>Over Ons</h2>
+        <div class="container">
+            <div class="card">
+                <div class="cirkel"></div>
+                <h2>Duurzaam</h2>
+                <p>Loofy's staat voor duurzaamheid, recycelbare verpakkingen zijn voor ons erg belangrijk.</p>
+            </div>
+            <div class="card">
+                <div class="cirkel"></div>
+                <h2>Plasticvrij</h2>
+                <p>Loofy's is geheel plasticvrij we staan voor een duurzame toekomst.</p>
+            </div>
+            <div class="card">
+                <div class="cirkel"></div>
+                <h2>Dierproefvrij</h2>
+                <p>Loofy's geeft om mens en dier. Producten testen op dieren doen wij niet aan.</p>
+            </div>
+            <div class="card">
+                <div class="cirkel"></div>
+                <h2>100% Natuurlijk</h2>
+                <p>De toekomst van onze natuur is bij Loofy's de hoogste prioriteit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-projects" id="blogs">
+        <h2>Blogs</h2>
+        <div class="container">
+
+            <div class="project">
+                <img src="assets/img/1.jpg" alt="">
+                <h2>Wat is vegan shampoo?</h2>
+                <p>Anno 2020 poppen er veel producten de grond uit die vegan zijn.
+                    <br><br>
+                    Vegan snoep, vegan kaas en bijvoorbeeld vegan leer. Wij voegen hier nog één mooie aan toe, namelijk
+                    vegan shampoo! Want waarom zouden we dierlijke producten gebruiken voor het reinigen van ons haar?
+                    We hoeven onze shampoos helemaal niet te testen op dieren, of speciale links gedraaide eieren te
+                    gebruiken voor meer glans. De natuur zelf heeft al zoveel moois te bieden waardoor we de dieren
+                    lekker laten rondscharrelen.
+                </p>
+                <button class="redirect-loofys">
+                    Lees Verder op Loofys.nl
+                </button>
+
+            </div>
+
+            <div class="project">
+                <img src="assets/img/3.jpg" alt="">
+                <h2>Wat doet shampoo met je haar?</h2>
+                <p>Wat doet shampoo met je haar wanneer jij onder de douche je lokken staat te masseren? Het voelt
+                    lekker schoon en het geeft een lekker geurtje aan ons haar. Veel meer dan dat weten de meeste mensen
+                    niet als het gaat om de werking van een shampoo. In deze blog vertellen we je alles over de ins en
+                    outs van de werking van een goede shampoo!</p>
+                <button class="redirect-loofys">
+                    Lees Verder op Loofys.nl
+                </button>
+
+            </div>
+            <div class="project">
+                <img src="assets/img/2.jpg" alt="">
+                <h2>3 tips bij het kopen van shampoo</h2>
+                <p>Niets is zo vervelend als pluizend of futloos haar. De juiste shampoo kan je haar optimaal
+                    ondersteunen. Het gebruik van een verkeerde shampoo kan zorgen voor een droge, jeukende hoofdhuid,
+                    snel vet wordend haar, droog, pluizend haar en haar dat sneller splijt. Met de juiste shampoo hoef
+                    je maar een of twee keer per week je haar te wassen en is het bijpunten van je haar minder vaak
+                    nodig. Geen enkele reden dus om niet te kiezen voor een shampoo die bij jouw haar past.</p>
+                <button class="redirect-loofys">
+                    Lees Verder op Loofys.nl
+                </button>
+
+            </div>
+            <div class="project">
+                <img src="assets/img/925589.webp" alt="">
+                <h2>Alles is natuurlijk</h2>
+                <p>Vrijwel alles om ons heen is natuurlijk of heeft een natuurlijke oorsprong. Die houten tafel van
+                    mahoniehout, de bontjas van je oma en de grondstoffen voor je mobiele telefoon. De natuur geeft ons
+                    ontzettend veel; een grote verscheidenheid aan voedsel, katoen, wol en linnen voor kleding, leer
+                    voor schoenen, tassen en meer, hout om te bouwen en vuur te maken.
+                    <br><br>
+                    Maar natuurlijk betekent nog niet dat iets goed is voor de natuur. Als mens zijn we erg goed in het
+                    creëren van dingen. We toveren bijvoorbeeld aardolie om in een ontelbare diversiteit aan producten.
+                    Ook zijn we goed in kaalroof: dier-en plantensoorten sterven uit, natuurgebieden verdwijnen, de
+                    oceanen worden leeggevist. Kunnen we dat nog allemaal wel natuurlijk noemen?
+                </p>
+                <button class="redirect-loofys">
+                    Lees Verder op Loofys.nl
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact-links" id="contact">
+        <h2>Neem contact op met Loofy's</h2>
+        <div class="container">
+            <div class="card">
+                <a href="https://api.whatsapp.com/send?phone=31582044023" target="_blank">
+                    <h2>Whatsapp</h2>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>+31(0)582044023</span>
+                </a>
+            </div>
+            <div class="card">
+                <a href="tel:+31(0)582044023" target="_blank">
+                    <h2>Telefoon</h2>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+31(0)582044023</span>
+                </a>
+            </div>
+            <div class="card">
+                <a href="mailto:info@loofys.nl" target="_blank">
+                    <h2>e-mail</h2>
+                    <i class="fa-solid fa-at"></i>
+                    <span>info@loofys.nl</span>
+                </a>
+            </div>
+        </div>
+        <h2>Loofy's haar Socials</h2>
+        <div class="container">
+            <div class="card">
+                <a href="https://www.facebook.com/loofysnederland/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.youtube.com/channel/UC6KEgffHRR9aScrn55LgWGA" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://nl.pinterest.com/loofysnederland/" target="_blank">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.linkedin.com/company/loofys/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.instagram.com/loofys.nl/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.tiktok.com/@loofys_vegan?_t=8VJzneBDAJx&_r=1" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="copyright-text">
+                Copyright ©
+                <script>document.write(new Date().getFullYear());</script> All Rights Reserved by
+                <span>Little Green Bag</span>.
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING ELEMENTS -->
+    <!-- Floating Action Buttons -->
+    <div class="action">
+        <span onclick="actionToggle();"><i class="fa-solid fa-circle-chevron-down"></i></span>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/loofys_vegan/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@loofys_vegan?_t=8VJzneBDAJx&_r=1">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- <div class="stage" style="display: none;">
+        <div class="overlay"></div>
+        <div class="box bounce-6">
+            <h2>Vraag en Antwoord</h2>
+            <p>
+                <br><br>
+                Heb je brandende vragen of wil je gewoon meer weten over Loofy's? Lees dan hier onze meest gestelde
+                vragen.
+                <br><br>
+                Verder mag je ons altijd mailen, bellen of het contact formulier invullen. We beantwoorden dit meestal
+                gelijk en anders maximaal binnen 24 uur.
+                <br><br>
+                Hoe snel versturen jullie mijn bestelling?
+                <br><br>
+                -Wij versturen elke bestelling die voor 17:00 uur besteld is, diezelfde dag met PostNL. De postbodes van
+                PostNL bezorgen dit de volgende dag bij jou thuis.
+                <br><br>
+                Stel dat ik na het ontvangen van mijn bestelling niet tevreden ben, hoe ga ik hier dan mee op?
+                <br><br>
+                - Raak niet in paniek. Alhoewel je ons voornamelijk online ziet, zitten er mensen met vlees en bloed
+                achter
+                dit merk. Wij gaan ervan uit dat al onze bestellingen met veel enthousiasme wordt ontvangen. Mocht er
+                onverhoopt toch sprake zijn van teleurstelling, dan doen wij hier niet moeilijk over. Tot twee weken na
+                ontvangst van het product kan dit ongemotiveerd geretourneerd worden.
+                <br><br>
+                Heb ik garantie op de producten?
+                <br><br>
+                - Onze producten zijn met uiterste zorg gemaakt waardoor wij ervan uit gaan dat garantie niet nodig is.
+                Mocht u onverhoopt toch minder tevreden zijn over de producten, neem dan alsjeblieft contact op via het
+                contactformulier. Wij zijn ervan verzekerd dat we er dan alsnog uitkomen 🙂
+                <br><br>
+                Hoe gaan jullie om met mijn privacy?
+                <br><br>
+                - Wij hebben persoonsgegevens nodig om de bestellingen te versturen en gaan hier erg zorgvuldig om. De
+                plekken waar dit bewaard wordt, is extra beveiligd waardoor onbevoegde mensen hier niet over kunnen
+                beschikken.
+                <br><br>
+                Stel dat ik een klacht wil indienen, hoe doe ik dat?
+                <br><br>
+                -Meningen horen we graag, ook wanneer deze negatief zijn. Vaak groeien we alleen maar harder door
+                eerlijke
+                meningen van onze klanten, dus deel het vooral met ons! Dit kan via een simpel whatsapp bericht of via
+                het
+                contactformulier hieronder.
+                <br><br>
+            </p>
+
+        </div>
+    </div> -->
+
+    <section class="faq-modal" style="display: none;">
+        <div class=" modal">
+            <div class="overlay"></div>
+
+            <div class="text">
+                <p>
+                <h2>Vraag en Antwoord</h2>
+                <br>
+                Heb je brandende vragen of wil je gewoon meer weten over Loofy's? Lees dan hier onze meest
+                gestelde
+                vragen.
+                <br>
+                Verder mag je ons altijd mailen, bellen of het contact formulier invullen. We beantwoorden dit
+                meestal
+                gelijk en anders maximaal binnen 24 uur.
+                <br><br><br>
+                <b>Hoe snel versturen jullie mijn bestelling?</b>
+                <br><br>
+                -Wij versturen elke bestelling die voor 17:00 uur besteld is, diezelfde dag met PostNL. De
+                postbodes
+                van
+                PostNL bezorgen dit de volgende dag bij jou thuis.
+                <br><br>
+                <b>Stel dat ik na het ontvangen van mijn bestelling niet tevreden ben, hoe ga ik hier dan mee
+                    op?</b>
+                <br><br>
+                - Raak niet in paniek. Alhoewel je ons voornamelijk online ziet, zitten er mensen met vlees en
+                bloed
+                achter
+                dit merk. Wij gaan ervan uit dat al onze bestellingen met veel enthousiasme wordt ontvangen.
+                Mocht
+                er
+                onverhoopt toch sprake zijn van teleurstelling, dan doen wij hier niet moeilijk over. Tot twee
+                weken
+                na
+                ontvangst van het product kan dit ongemotiveerd geretourneerd worden.
+                <br><br>
+                <b>Heb ik garantie op de producten?</b>
+                <br><br>
+                - Onze producten zijn met uiterste zorg gemaakt waardoor wij ervan uit gaan dat garantie niet
+                nodig
+                is.
+                Mocht u onverhoopt toch minder tevreden zijn over de producten, neem dan alsjeblieft contact op
+                via
+                het
+                contactformulier. Wij zijn ervan verzekerd dat we er dan alsnog uitkomen 🙂
+                <br><br>
+                <b>Hoe gaan jullie om met mijn privacy?</b>
+                <br><br>
+                - Wij hebben persoonsgegevens nodig om de bestellingen te versturen en gaan hier erg zorgvuldig
+                om.
+                De
+                plekken waar dit bewaard wordt, is extra beveiligd waardoor onbevoegde mensen hier niet over
+                kunnen
+                beschikken.
+                <br><br>
+                <b>Stel dat ik een klacht wil indienen, hoe doe ik dat?</b>
+                <br><br>
+                -Meningen horen we graag, ook wanneer deze negatief zijn. Vaak groeien we alleen maar harder
+                door
+                eerlijke
+                meningen van onze klanten, dus deel het vooral met ons! Dit kan via een simpel whatsapp bericht
+                of
+                via
+                het
+                <a href="https://loofys.nl/vraag-antwoord/" target="_blank">contactformulier</a>
+                </p>
+            </div>
+
+
+            <div class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poster Section -->
+    <div class="poster">
+        <div class="poster-label">POSTER</div>
+        <img src="assets/img/poster.png" alt="" class="poster-image">
+        <p class="poster-text">Klik om de foto te vergroten</p>
+    </div>
+    <section class="poster-modal" style="display: none;">
+        <div class="modal">
+            <div class="overlay"></div>
+            <img src="assets/img/poster.png" alt="">
+            <div class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
